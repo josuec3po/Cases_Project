@@ -1,6 +1,6 @@
 body {
-    background-image: url("backg.jpg");*/
-    background-color: darkcyan;
+    background-image: url("backg.jpg");
+    */ background-color: darkcyan;
     background-repeat: no-repeat;
     background-size: 1500px;
     background-position-y: -500px;
@@ -40,6 +40,4 @@ section {
     margin-top: 50px;
 }
 
-footer {
-
-}
+footer {}
