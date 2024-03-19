@@ -28,4 +28,9 @@ const caseOptions = {
     x = x.split("").reverse().join(""); // Correct the variable used for string manipulation from 'inputString' to 'x'
     inputString.value = x;
   },
+  sentence: function () {
+    let x = inputString.value;
+    let xConv = x.charAt(0).toUpperCase() + x.slice(1).toLowerCase();
+    inputString.value = xConv;
+  },
 };
