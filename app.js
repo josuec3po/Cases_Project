@@ -1,7 +1,7 @@
 let inputString = document.getElementById("txtvalue");
 
 const caseOptions = {
-  // Enclose conversion types 'upper' and 'lower' in single quotes to treat them as strings
+  //Object Literals
   upper: function () {
     inputString.value = inputString.value.toUpperCase();
   },
